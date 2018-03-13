@@ -1,0 +1,31 @@
+<div class="ui header">
+  Bindings - Child Component
+</div>
+<br>
+<div class="container">
+  Current State of the Parent App is  <span [ngClass]="appClass">{{ appState }}</span>
+</div>
+<br>
+<div class="container">
+    <span class="ui label">
+      Counter value of the Parent App is {{ appCounter }}
+    </span>
+</div>
+<br>
+<div class="container">
+    <span class="ui label">
+      Counter value is an {{ numberNature }}
+    </span>
+</div>
+<br>
+<div class="container">
+    <span class="ui label">
+      Counter value of the ChildApp is {{ counter }}
+    </span>
+</div>
+<br>
+<div class="container">
+  <button class="ui primary button" (click)="childIncrementor()">
+    Child Incrementor
+  </button>
+</div>

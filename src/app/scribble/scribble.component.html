@@ -1,0 +1,16 @@
+<div class="ui header">
+  Scribble Pad
+</div>
+<br>
+<p>You scribbled:</p>
+<div class="ui info message"> <!--By using variable-->
+  <p *ngFor="let scribble of scribbles">
+    {{ scribble  }}
+  </p>
+</div>
+<br>
+<div class="container">
+  <button class="ui primary button" (click)="resetScribbler()">
+    Reset
+  </button>
+</div>

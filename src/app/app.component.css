@@ -1,0 +1,12 @@
+.mytruecolor {
+   color: darkolivegreen;  
+}
+.myfalsecolor {
+    color: crimson;
+}
+.mytruebckcolor {
+    background: azure;
+}
+.myfalsebckcolor {
+    background: snow;
+}
